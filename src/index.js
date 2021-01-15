@@ -5,7 +5,7 @@ const stringToNum = (numStr) => {
   let ch = numStr.split("");
   let sum = 0;
   let isNegative = false;
-  let zeroAscii = "0".charCodeAt(0);
+  let zeroAscii = "0".charCodeAt(0); //i.e 48
 
   // Check if number is positive or negative
   if (ch[0] === "-") {
