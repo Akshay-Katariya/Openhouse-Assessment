@@ -7,7 +7,7 @@ const stringToNum = (numStr) => {
   let isNegative = false;
   let zeroAscii = "0".charCodeAt(0);
 
-  // Check id number id positive or negative
+  // Check if number is positive or negative
   if (ch[0] === "-") {
     isNegative = true;
     ch[0] = "0";
