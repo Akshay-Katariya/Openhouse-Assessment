@@ -1,6 +1,6 @@
 // Problem: 1
 // Function to convert string to integer without using built-in functions
-const convert = (numStr) => {
+const stringToNum = (numStr) => {
   // Initialize all variables
   let ch = numStr.split("");
   let sum = 0;
@@ -28,11 +28,11 @@ const convert = (numStr) => {
   }
   return isNegative ? sum * -1 : sum;
 };
-console.log(convert("0"));
-console.log(convert("120"));
-console.log(convert("42a"));
-console.log(convert("43a35"));
-console.log(convert("-42"));
+console.log(stringToNum("0"));
+console.log(stringToNum("120"));
+console.log(stringToNum("42a"));
+console.log(stringToNum("43a35"));
+console.log(stringToNum("-42"));
 
 //Proble: 2
 /**
